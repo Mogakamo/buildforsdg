@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up</title>
+    <style>
+     html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    </style>
+    <link rel="stylesheet" href="dist/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/bootstrap/style.css">
+    <script src="verify.js"></script>
+</head>
+<body>
+    
+    <form class="signup100-form validate-form">
+        <div class="">
+            <div class="signup100-form-title p-b-43">
+                <h3 class="mb-1">Registration Form</h3>
+                <p>Please enter your user information.</p>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <input class="form-control form-control-lg" type="text" name="nick" required="" placeholder="Username"
+                        autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <input class="form-control form-control-lg" type="email" name="email" required="" placeholder="E-mail"
+                        autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <input class="form-control form-control-lg" id="pass1" type="password" required="" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input class="form-control form-control-lg" required="" placeholder="Confirm">
+                </div>
+                <div class="form-group pt-2">
+                    <button class="login100-form-btn" type="submit">Register My Account</button>
+                </div>
+                <div class="form-group">
+                    <label class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox"><span class="custom-control-label">By creating
+                            an account, you agree the <a href="#">terms and conditions</a></span>
+                    </label>
+                </div>
+                <div class="form-group row pt-0">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-2">
+                        <span style="text-align:center;" class="or">or</span><br>
+                        <span style="text-align:center;" class="or">Signup using</span>
+                        <button class="login100-form-btn " type="button">Facebook</button>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <button class="login100-form-btn" type="button">Twitter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer bg-white">
+                <p>Already member? <a href="login.html" class="text-secondary">Login Here.</a></p>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+
+    <script src="verify.js"></script>
+</body>
+</html>
